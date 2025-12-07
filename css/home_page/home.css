@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1f5f9; /* nền xám dịu */
+  color: #1e293b;            /* chữ xanh đậm dễ đọc */
+  line-height: 1.6;
+}
+
+/* Hero section */
+.hero {
+  background-color: #0054A6; /* xanh đậm giống bảng hiệu */
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.hero .subtitle {
+  margin-top: 12px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Intro paragraph */
+.intro {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+/* Features list */
+.features {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  list-style: none;
+}
+
+.features > li {
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.features ul {
+  margin-top: 8px;
+  margin-left: 20px;
+  list-style: disc;
+  color: #334155;
+}
+
+/* Highlight dishes */
+.highlight {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.highlight h2 {
+  margin-top: 0;
+  color: #0054A6;
+}
+
+.highlight li {
+  margin: 8px 0;
+  font-size: 1.1rem;
+}
+
+/* Schedule */
+.schedule {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #e2e8f0;
+  border-radius: 8px;
+}
+
+.schedule h2 {
+  margin-top: 0;
+  color: #0054A6;
+}
+
+.schedule dt {
+  margin: 10px 0;
+  font-weight: 500;
+}

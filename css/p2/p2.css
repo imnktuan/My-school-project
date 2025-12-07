@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+/* Phần hero giới thiệu */
+.hero {
+  background-color: #0054A6;
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom: 1px solid #003366;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.hero p {
+  margin-top: 12px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Phần danh sách món ăn */
+.dish-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.dish-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+/* Style cho từng ảnh món ăn */
+.dish-card img {
+  width: auto;
+  max-width: 400px;     /* Giới hạn chiều rộng tối đa */
+  height: auto;
+  display: block;
+  margin: 0 auto 12px;  /* Căn giữa và cách dưới */
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.dish-card img:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+/* Tiêu đề món ăn */
+.dish-card h2 {
+  margin-top: 0;
+  color: #0054A6;
+  font-size: 1.4rem;
+}
+
+/* Mô tả và giá */
+.dish-card p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.dish-card p strong {
+  color: #0f172a;
+}
+
+

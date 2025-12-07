@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/header_footer/header.css">
+	<link rel="stylesheet" href="css/last_page/contact.css">
+	<link rel="stylesheet" href="css/header_footer/footer.css">
+	<link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+
+	<style>
+    body {
+      background-color: #e2e8f0; /* xám dịu, không trùng màu box */
+      margin: 0;
+      font-family: sans-serif;
+    }
+    
+    .hero {
+    	type: block;
+  		background-color: #0054A6; /* xanh đậm giống bảng hiệu */
+  		color: #ffffff;
+  		text-align: center;
+  		padding: 60px 20px;
+		}
+
+		.hero h1 {
+  		margin: 0;
+  		font-size: 2rem;
+  		font-weight: 700;
+		}
+
+		.hero .subtitle {
+  		margin-top: 12px;
+  		font-size: 1.2rem;
+  		font-weight: 400;
+		}
+	</style>
+</head>
+
+<body>
+<header >
+	<div  class="page">
+		<span id="remain">Căn tin PTNK cs2</span>
+		<a href="home_page.html"target_self>Giới thiệu</a>
+		<a href="p2.html"target ="_self">Món ăn</a>
+		<a href="p3.html"target ="_self">Nước uống</a>
+		<a href="p4.html"target ="_self">Ăn vặt</a>
+		<a href="last_page.html"target ="_self">Liên hệ</a>
+	</div>
+</header>
+
+<div class="hero">
+  <h1>Canteen Trường – Ngon, Nhanh, Tiện Lợi.</h1>
+  <div class="subtitle">
+    Mang đến cho bạn những bữa ăn an toàn và tràn đầy năng lượng cho mỗi ngày học.
+  </div>
+    <!-- code in to add img src -->
+</div>
+
+
+<main class = main_content>
+	<div class="contact_box">
+		<h2>Liên hệ</h2>
+		<form method="POST">
+			<label for="full_name">Họ và Tên: </label>
+			<input type="text" id="full_name" >
+			
+			<label for="Email">Email: </label>
+			<input type="text" name="Email">
+
+			<label>Bạn là: </label>
+			<select name="vai_trò">
+				<option></option>
+				<option value="Giáo_viên">Giáo viên</option>
+				<option value="Học_sinh">Học sinh</option>
+				<option value="Thăm_quan">Thăm quan</option>
+			</select>
+				<button type="submit">Submit</button>
+		</form>
+	</div>
+</main>
+
+<footer class="footer">
+  	<div class="footer__container">
+    	<h3 class="footer__title">Thông tin liên hệ</h3>
+    	<dl class="footer__list">
+      		<dt class="footer__school">Trường Phổ Thông Năng Khiếu, ĐHQG-HCM</dt>
+      		<dt>Cơ sở Nguyễn Chí Thanh: 153 Nguyễn Chí Thanh, phường An Đông, Thành phố Hồ Chí Minh</dt>
+      		<dt>Cơ sở Khu đô thị ĐHQG-HCM: Đường William Shakespears, phường Đông Hòa, Thành phố Hồ Chí Minh</dt>
+      		<dt>Hotline: 1900 9999 17</dt>
+      		<dt>Email: <a href="mailto:info@ptnk.edu.vn">info@ptnk.edu.vn</a></dt>
+      		<dt>Facebook: <a href="http://facebook.com/HSGVNUHCM" target="_blank" rel="noopener">facebook.com/HSGVNUHCM</a></dt>
+      		<dt>Website: <a href="https://www.ptnk.edu.vn" target="_blank" rel="noopener">www.ptnk.edu.vn</a></dt>
+    	</dl>
+  </div>
+</footer>
+</body>
+</html>

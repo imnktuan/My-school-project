@@ -1,0 +1,29 @@
+
+
+.page {
+  display: flex;/* enables horizontal layout */
+  gap: 50px;
+  background-color: #0074D9; /* optional background */
+  padding: 10px 20px;
+  padding-left: 750px;
+  align-items: center;
+
+}
+
+.page a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+
+#remain{
+  position: absolute;
+  left: 50px;
+  top: 15px; 
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
